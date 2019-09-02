@@ -68,28 +68,31 @@
         </div>
     </div>
 
-    <div class="Contact" id="Contact">
+    <div class="Form-style" id="Contact">
 
         <h2>Contacto</h2>
-        
-        
+
+
         <forms action="/contact" method="GET">
 
-            <label>Nombre
-                <input type="text" name="name">
+            <label>
+                <input required type="text" placeholder="Nombre" name="name">
             </label>
-            <label> Correo electronico
-                <input type="email" name="email">
+            <label>
+                <input required type="text" placeholder="Apellido" name="Apellido">
             </label>
-            <label>Celular
-                <input type="number" name="celular">           
+            <label> 
+                <input type="email" placeholder="Correo electronico" name="email">
+            </label>
+            <label>
+                <input type="number" placeholder="Celular" name="celular">
             </label>
             <textarea rows="4" cols="50" placeholder="Mensaje" name="text area"></textarea>
-            
+
             <input type="submit">
 
             </form>
-        
+
 
     </div>
 

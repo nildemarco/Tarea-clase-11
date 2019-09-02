@@ -85,12 +85,20 @@ button {
     
 }
 
-.Contact{
+.Form-style{
     height: 300px;
     background-color: #ffffff;
 
 }
 
+.Form-style, input{
+    border: none;
+    border-bottom: 2px solid black;
+    
+}
+
 label{
     display: block;
+    font-family: 'Montserrat', sans-serif;
+    
 }
